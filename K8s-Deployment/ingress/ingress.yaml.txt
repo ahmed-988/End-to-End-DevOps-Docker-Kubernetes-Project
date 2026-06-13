@@ -1,0 +1,26 @@
+apiVersion: networking.k8s.io/vi
+kind: Ingress
+metadata:
+  name: example-ingress
+spec:
+  rules:
+  - host: app.seior.com
+    http:
+      paths:
+      - path: "/"
+        pathType: Perfix
+        backend:
+          service:
+            name: vproapp-service
+	    port:
+	      number: 80
+  - host: app.seior.com
+    http:
+      paths:
+      - path: "/login"
+        pathType: Perfix
+        backend:
+          service:
+            name: login
+	    port:
+	      number: 90

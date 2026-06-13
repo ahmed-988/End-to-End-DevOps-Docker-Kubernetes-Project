@@ -1,0 +1,41 @@
+# Docker Hub Images
+
+## Application Image
+
+Image Name: aanany/workshop_app:v1.0
+
+Description: Custom Tomcat image that contains Java Vprofile application.
+
+Build: docker build -t workshop_app:v1.0 .
+
+Push: docker push aanany/workshop_app:v1.0
+
+---
+
+## Database Image
+
+Image Name: aanany/workshop_db:v1.0
+
+Description: Custom MySQL image with initialized database.
+
+Build: docker build -t workshop_db:v1.0 .
+
+Push: docker push aanany/workshop_db:v1.0
+
+---
+
+## Load Balancer Image
+
+Image Name: aanany/workshop_lb:v1.0
+
+Description: Custom Nginx image used as reverse proxy.
+
+Build: docker build -t workshop_lb:v1.0 .
+
+Push: docker push aanany/workshop_lb:v1.0
+
+
+
+## Docker Hub Repository
+
+Docker Hub: https://hub.docker.com/u/aanany

@@ -1,0 +1,36 @@
+# Cluster Testing
+
+## Check Nodes
+
+kubectl get nodes
+Expected:
+master    Ready
+
+worker1   Ready
+
+worker2   Ready
+
+
+
+## Cluster Info
+
+kubectl cluster-info
+
+
+
+## Check Pods
+
+kubectl get pods -A
+
+
+
+## Test Deployment
+
+kubectl create deployment nginx-app --image=nginx --replicas=2
+kubectl get pods
+
+
+
+## Result
+
+Kubernetes cluster is working successfully

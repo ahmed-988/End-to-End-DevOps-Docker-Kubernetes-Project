@@ -1,0 +1,45 @@
+version: "3"
+services: 
+  db01:
+    image: workshop_db:v1.0
+    container_name: db01
+    ports:
+      - "3306:3306"
+    volumes:
+      - dbdata:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin123
+
+
+  mc01:
+    image: memcached
+    container_name: mc01
+    ports:
+      - "11211:11211"
+
+  rmq01:
+    image: rabbitmq
+    container_name: rmq01
+    ports:
+      - "15672:15672"
+    environment:
+      - RABBITMQ_DEFAULT_USER=test
+      - RABBITMQ_DEFAULT_USER=test
+
+  contapp:
+    container_name: myapp01
+    image: workshop_app:v1.0
+    ports:
+      - "8080:8080"
+    volumes:
+      - appdata:/usr/local/tomcat/webapps
+
+#  contweb:
+#    container_name: contweb
+#    image: web
+#    ports:
+#      - "80:80"
+
+volumes:
+  dbdata:
+  appdata:

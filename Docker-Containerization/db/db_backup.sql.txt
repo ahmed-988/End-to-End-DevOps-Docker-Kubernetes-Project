@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS accounts;
+
+USE accounts;
+
+CREATE TABLE user (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50),
+    password VARCHAR(50)
+);
+
+INSERT INTO user(username,password)
+VALUES ('admin','admin123');

@@ -1,0 +1,9 @@
+# Install Calico Network Plugin
+
+-master node
+
+kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.26.0/manifests/calico.yaml 
+
+watch -n 5 kubectl get nodes -A  
+
+kubectl get nodes
