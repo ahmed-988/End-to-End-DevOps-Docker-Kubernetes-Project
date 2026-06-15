@@ -97,21 +97,22 @@ Deployed the containerized application inside Kubernetes Cluster.
 
 ### Deployments
 
-Created deployments for:
-
-* Application
-* MySQL
-* RabbitMQ
-* Memcached
+✅ Created deployments for Application
+✅ Created deployments for MySQL
+✅ Created deployments for RabbitMQ
+✅ Created deployments for Memcached
 
 ### Services
 
-| Service             | Type         |
-| ------------------- | ------------ |
-| Application Service | LoadBalancer |
-| MySQL Service       | ClusterIP    |
-| RabbitMQ Service    | ClusterIP    |
-| Memcached Service   | ClusterIP    |
+✅ Created Application Service (LoadBalancer)
+✅ Created MySQL Service (ClusterIP)
+✅ Created RabbitMQ Service (ClusterIP)
+✅ Created Memcached Service (ClusterIP)
+
+### Secret & Ingress rules
+
+✅ Created Secret for managing sensitive credentials securely
+✅ Created Ingress rules to expose applications and manage external access securely."
 
 ## 🛠️ Tools Used
 
