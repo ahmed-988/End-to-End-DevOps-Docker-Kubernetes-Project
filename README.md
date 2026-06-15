@@ -1,6 +1,7 @@
 # 🚀 End to End DevOps Docker-Kubernetes Project
 
-<img width="831" height="811" alt="Untitled Diagram drawio" src="https://github.com/user-attachments/assets/26845896-78f1-46e3-8c56-f103ed714506" />
+<img width="831" height="831" alt="Untitled Diagram drawio (1)" src="https://github.com/user-attachments/assets/f04c68a0-b25b-4e63-af64-d536100cc7ba" />
+
 
 
 
