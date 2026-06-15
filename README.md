@@ -19,16 +19,16 @@ In this phase, the Java Multi-Tier Application was containerized using Docker.
 
 ### Tasks Completed:
 
-✅ Pulled required base images
-✅ Cloned application source code
-✅ Built application using Maven
-✅ Created custom Docker images
-✅ Created application containers
-✅ Configured container networking
-✅ Created Docker volumes
-✅ Tested containers
-✅ Pushed images to Docker Hub
-✅ Created full environment using Docker Compose
+- ✅ Pulled required base images
+- ✅ Cloned application source code
+- ✅ Built application using Maven
+- ✅ Created custom Docker images
+- ✅ Created application containers
+- ✅ Configured container networking
+- ✅ Created Docker volumes
+- ✅ Tested containers
+- ✅ Pushed images to Docker Hub
+- ✅ Created full environment using Docker Compose
 
 ## 🛠️ Tools Used
 
@@ -58,11 +58,11 @@ Built Kubernetes Cluster from scratch.
 
 ### Setup Steps:
 
-✅ Configure Hostnames
-✅ Disable Swap
-✅ Configure Kernel Parameters
-✅ Install Container Runtime
-✅ Install Kubernetes Components
+- ✅ Configure Hostnames
+- ✅ Disable Swap
+- ✅ Configure Kernel Parameters
+- ✅ Install Container Runtime
+- ✅ Install Kubernetes Components
 
 Installed:
 
@@ -70,10 +70,10 @@ Installed:
 * kubelet
 * kubectl
 
-✅ Initialize Cluster
-✅ Join Worker Nodes
-✅ Install Calico Network Plugin
-✅ Test Cluster
+- ✅ Initialize Cluster
+- ✅ Join Worker Nodes
+- ✅ Install Calico Network Plugin
+- ✅ Test Cluster
 
 ## 🛠️ Tools Used
 
@@ -97,22 +97,22 @@ Deployed the containerized application inside Kubernetes Cluster.
 
 ### Deployments
 
-✅ Created deployments for Application
-✅ Created deployments for MySQL
-✅ Created deployments for RabbitMQ
-✅ Created deployments for Memcached
+- ✅ Created deployments for Application
+- ✅ Created deployments for MySQL
+- ✅ Created deployments for RabbitMQ
+- ✅ Created deployments for Memcached
 
 ### Services
 
-✅ Created Application Service (LoadBalancer)
-✅ Created MySQL Service (ClusterIP)
-✅ Created RabbitMQ Service (ClusterIP)
-✅ Created Memcached Service (ClusterIP)
+- ✅ Created Application Service (LoadBalancer)
+- ✅ Created MySQL Service (ClusterIP)
+- ✅ Created RabbitMQ Service (ClusterIP)
+- ✅ Created Memcached Service (ClusterIP)
 
 ### Secret & Ingress rules
 
-✅ Created Secret for managing sensitive credentials securely
-✅ Created Ingress rules to expose applications and manage external access securely."
+- ✅ Created Secret for managing sensitive credentials securely
+- ✅ Created Ingress rules to expose applications and manage external access securely."
 
 ## 🛠️ Tools Used
 
